@@ -3,6 +3,25 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+  'mhinz/vim-crates',
+  'christoomey/vim-tmux-navigator',
+  -- {
+  --   'davidpdrsn/vim-spectacular',
+  --   config = function()
+  --     vim.cmd([[
+  --     " Run tests in a new split using Neovim's `:terminal` command
+  --     " Note this requires you're using Neovim
+  --     " If not using `:terminal` `:!` will be used
+  --     " Default is 0
+  --     let g:spectacular_use_terminal_emulator = 0
+
+  --     " Put the command run onto `:messages`. Useful for debugging
+  --     " Default is 0
+  --     let g:spectacular_debugging_mode = 0
+  --     ]])
+  --     vim.keymap.set('n', '<leader>t', ':<C-U>call spectacular#run_tests()<cr>')
+  --   end,
+  -- },
   {
     'voldikss/vim-floaterm',
     config = function()

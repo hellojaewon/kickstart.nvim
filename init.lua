@@ -198,6 +198,9 @@ require('lazy').setup({
 -- [[ etting options ]]
 -- See `:help vim.o`
 
+vim.opt.listchars = { eol = '↵', trail = '~', tab = '>-', nbsp = '␣' }
+vim.opt.list = true
+
 -- Set highlight on search
 vim.o.hlsearch = true
 
