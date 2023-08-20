@@ -4,7 +4,9 @@
 -- See the kickstart.nvim README for more information
 return {
   'mhinz/vim-crates',
+  'airblade/vim-rooter',
   'christoomey/vim-tmux-navigator',
+  'tom-anders/telescope-vim-bookmarks.nvim',
   {
     'folke/trouble.nvim',
     config = function()
